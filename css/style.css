@@ -1,0 +1,66 @@
+body {
+  background: black;
+  margin: 0 auto;
+  text-align: center;
+
+}
+
+table { 
+  position: relative;
+  height: 200px;
+  width: 100%;
+  padding: 0;
+  margin: 0 ;
+}
+
+tr td { position: relative; float: left; margin: 0; padding: 0;}
+
+.piano {
+  position: relative;
+  height: 200px;
+  width: 710px;
+  margin: 40px auto;
+
+
+}
+
+.black {
+  margin: 0 0 0 -10px;
+  width: 20px;
+  height: 125px;
+  background: #000000;
+  z-index: 1000;
+  border-top: 2px solid #000000;
+  border-right: 2px solid #000000;
+  border-bottom: 2px solid #000000;
+}
+
+.black:active {
+
+
+  box-shadow: inset 7px 10px 67px 8px rgba(204,204,204,0.2);
+}
+
+.white {
+  width: 30px;
+  height: 200px;
+  background: #ffffff;
+  border-top: 2px solid #000000;
+  border-right: 2px solid #000000;
+  border-bottom: 2px solid #000000;
+}
+
+.white:active {
+  box-shadow: inset 7px 10px 67px 8px rgba(0,0,0,0.2);
+}
+
+.black + .white {
+  margin-left: -12px;
+}
+
+
+
+a {
+  color: #9EA0A4;
+  text-decoration: none;
+}
